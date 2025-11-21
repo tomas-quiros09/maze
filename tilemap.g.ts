@@ -45,10 +45,10 @@ namespace myTiles {
 `, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterWest0,sprites.dungeon.floorDark2,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterEast1,sprites.dungeon.floorDark1,sprites.dungeon.floorDark5,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.purpleInnerNorthWest,sprites.dungeon.greenOuterWest2,sprites.dungeon.stairWest,sprites.dungeon.stairEast,sprites.dungeon.stairLarge,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterSouth2,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.stairLadder], TileScale.Sixteen);
             case "level1":
             case "level1":return tiles.createTilemap(hex`1000100001010103010101010101020202020202010101020101010101010201010101020101010201010202020202020202010201010102010102010201010201010102010202020202020102010202020201020101010101010101020102010101010201020202020202020201020102010202010101010201010101010201020202020101010102010202020102010102010202020202020101010201020101020102020101010201010102010101010201020201010102020101020101010101010202020101020202020202020202020102010201010201010102010201010201010101010102010101020102010102010101010202020101010201010101020204`, img`
-. . . . . . . . . . . . . . . . 
-. . 2 . 2 . 2 2 2 2 . 2 2 2 2 . 
-. . 2 . 2 2 . . . . . . . . 2 . 
-. 2 2 . 2 2 . 2 . 2 2 . 2 2 2 . 
+2 2 2 . 2 2 2 2 2 2 . . . . . . 
+2 2 2 . 2 2 2 2 2 2 . 2 2 2 2 . 
+2 2 2 . 2 2 . . . . . . . . 2 . 
+2 2 2 . 2 2 . 2 . 2 2 . 2 2 2 . 
 2 . . . . . . 2 . 2 . . . . 2 . 
 2 2 2 2 2 2 2 2 . 2 . 2 2 2 2 . 
 2 . . . . . . . . 2 . 2 . 2 . . 
