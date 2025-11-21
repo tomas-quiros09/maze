@@ -4,6 +4,7 @@ scene.onHitWall(SpriteKind.Player, function (sprite, location) {
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles29, function (sprite, location) {
     game.over(true)
 })
+music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
