@@ -3,7 +3,9 @@ scene.onHitWall(SpriteKind.Player, function (sprite, location) {
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles29, function (sprite, location) {
     game.over(true)
+    Level_2 = true
 })
+let Level_2 = false
 music.play(music.stringPlayable("C5 G G C5 G F E D ", 338), music.PlaybackMode.LoopingInBackground)
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
