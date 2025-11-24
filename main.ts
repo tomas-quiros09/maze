@@ -31,3 +31,8 @@ tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(50)
 mySprite.setBounceOnWall(true)
+game.onUpdate(function () {
+    if (Level_2 == true) {
+    	
+    }
+})
