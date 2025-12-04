@@ -4,6 +4,10 @@ scene.onHitWall(SpriteKind.Player, function (sprite, location) {
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles29, function (sprite, location) {
     game.gameOver(true)
     game.setGameOverEffect(true, effects.confetti)
+    if (Lvl_2 == true) {
+        tiles.setCurrentTilemap(tilemap`level2`)
+    }
+    Lvl_2 = true
 })
 let Lvl_2 = false
 music.play(music.stringPlayable("C5 - G G G F E D ", 380), music.PlaybackMode.LoopingInBackground)
@@ -31,5 +35,5 @@ scene.cameraFollowSprite(mySprite)
 info.startCountdown(50)
 tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
 game.onUpdate(function () {
-    Lvl_2 = true
+	
 })
