@@ -2,11 +2,7 @@ scene.onHitWall(SpriteKind.Player, function (sprite, location) {
     tiles.placeOnTile(null, tiles.getTileLocation(0, 0))
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles29, function (sprite, location) {
-    game.gameOver(true)
-    game.setGameOverEffect(true, effects.confetti)
-    if (Lvl_2 == true) {
-        tiles.setCurrentTilemap(tilemap`level2`)
-    }
+    tiles.setCurrentTilemap(tilemap`level2`)
     Lvl_2 = true
 })
 let Lvl_2 = false
