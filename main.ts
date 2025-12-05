@@ -1,7 +1,7 @@
 scene.onHitWall(SpriteKind.Player, function (sprite, location) {
     tiles.placeOnTile(null, tiles.getTileLocation(0, 0))
 })
-scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles29, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level2`)
     Lvl_2 = true
 })
