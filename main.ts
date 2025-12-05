@@ -76,7 +76,7 @@ let mySprite = sprites.create(img`
 controller.moveSprite(mySprite, 100, 100)
 tiles.setTilemap(tilemap`level1`)
 scene.cameraFollowSprite(mySprite)
-info.startCountdown(50)
+info.startCountdown(55)
 tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
 game.onUpdate(function () {
 	
