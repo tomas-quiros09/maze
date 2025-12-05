@@ -1,11 +1,12 @@
 scene.onHitWall(SpriteKind.Player, function (sprite, location) {
     tiles.placeOnTile(null, tiles.getTileLocation(0, 0))
 })
-scene.onOverlapTile(SpriteKind.Player, sprites.builtin.forestTiles26, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level2`)
     Lvl_2 = true
 })
 let Lvl_2 = false
+game.showLongText("you wake up in a bright grassy fEILD. this is a dream but you cant wake up.MAKE IT OUT!!", DialogLayout.Bottom)
 music.play(music.stringPlayable("C5 - G G G F E D ", 380), music.PlaybackMode.LoopingInBackground)
 let mySprite = sprites.create(img`
     ................................................................
