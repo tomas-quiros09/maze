@@ -57,25 +57,6 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterWest0,sprites.dungeon.floorDark2,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterEast1,sprites.dungeon.floorDark5,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.greenOuterWest2,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterSouth2,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerSouthEast,myTiles.transparency16], TileScale.Sixteen);
-            case "level1":
-            case "level1":return tiles.createTilemap(hex`1000100001090102010409040401060606060606050104060404050409010605050104060904040601040606060606060806040601010506090406040604050609010406040706060606060406090606060609060501050401040401060406010501040604060606060606060609060906010606010401040605010501040601060606060101040406050606060106040406010606060606060109050601060405060406060505050601040406040505040601060605040906010901060901090404090606060905060606060606060606060106040605040601040106090609040609040101010106010101060106040106050909010606060104010601010101060603`, img`
-2 2 2 . 2 2 2 2 2 2 . . . . . . 
-2 2 2 . 2 2 2 2 2 2 . 2 2 2 2 . 
-2 2 2 . 2 2 . . . . . . . . 2 . 
-2 2 2 . 2 2 . 2 . 2 2 . 2 2 2 . 
-2 . . . . . . 2 . 2 . . . . 2 . 
-2 2 2 2 2 2 2 2 . 2 . 2 2 2 2 . 
-2 . . . . . . . . 2 . 2 . 2 . . 
-2 . 2 2 . 2 2 2 2 2 . 2 . . . . 
-2 . 2 2 . 2 . . . 2 . 2 2 . 2 . 
-. . . . . 2 2 2 . 2 . 2 2 . 2 . 
-. 2 2 2 . 2 2 2 . 2 2 2 2 . 2 . 
-. 2 2 2 . 2 2 2 . 2 2 2 2 2 2 . 
-. . 2 2 . . . . . . . . . . 2 . 
-2 . 2 2 . 2 2 2 . 2 . 2 2 . 2 2 
-2 . . . . . . . . . . 2 2 . 2 2 
-2 2 . . . 2 2 2 . . . . . . . . 
-`, [myTiles.transparency16,sprites.castle.tileGrass2,sprites.dungeon.collectibleInsignia,sprites.builtin.forestTiles29,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.castle.tilePath5,sprites.castle.tilePath1,sprites.builtin.forestTiles4,sprites.builtin.forestTiles1], TileScale.Sixteen);
             case "level2":
             case "level2":return tiles.createTilemap(hex`1000100001010401040104010105010101010101010101010401010104040101010105010102010105040404010104040401010101040404040401040101050101020101010401010104010102010101010101010104020401040105010404040101010103040104010401040404040401010201010404010404010104040104010105010101040104040102040401020404010101010504040401040404010104040404020404040404010101040401050105010104040504040401010204040102010104010101010104040101040401010101010101020404040401010404010102040104010404040405010404040101040401010104040401010404010101010401`, img`
 . . . . . . . . . . . . . . . . 
@@ -95,6 +76,25 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile14,myTiles.tile2], TileScale.Sixteen);
+            case "level1":
+            case "level1":return tiles.createTilemap(hex`1000100001090102010409040401060606060606050104060404050409010605050104060904040601040a0a0a060606080604060101050609040a040a0405060901040604070606060a0a04060906060606090605010504010404010a04060105010406040606060606060a0a09060906010606010401040605010501040601060606060101040406050606060106040406010606060606060109050601060405060406060505050601040406040505040601060605040906010901060901090404090606060905060606060606060606060106040605040601040106090609040609040101010106010101060106040106050909010606060104010601010101060603`, img`
+2 2 2 . 2 2 2 2 2 2 . . . . . . 
+2 2 2 . 2 2 2 2 2 2 . 2 2 2 2 . 
+2 2 2 . 2 2 . . . . . . . . 2 . 
+2 2 2 . 2 2 . 2 . 2 2 . 2 2 2 . 
+2 . . . . . . 2 . 2 . . . . 2 . 
+2 2 2 2 2 2 2 2 . 2 . 2 2 2 2 . 
+2 . . . . . . . . 2 . 2 . 2 . . 
+2 . 2 2 . 2 2 2 2 2 . 2 . . . . 
+2 . 2 2 . 2 . . . 2 . 2 2 . 2 . 
+. . . . . 2 2 2 . 2 . 2 2 . 2 . 
+. 2 2 2 . 2 2 2 . 2 2 2 2 . 2 . 
+. 2 2 2 . 2 2 2 . 2 2 2 2 2 2 . 
+. . 2 2 . . . . . . . . . . 2 . 
+2 . 2 2 . 2 2 2 . 2 . 2 2 . 2 2 
+2 . . . . . . . . . . 2 2 . 2 2 
+2 2 . . . 2 2 2 . . . . . . . . 
+`, [myTiles.transparency16,sprites.castle.tileGrass2,sprites.dungeon.collectibleInsignia,sprites.builtin.forestTiles29,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.castle.tilePath5,sprites.castle.tilePath1,sprites.builtin.forestTiles4,sprites.builtin.forestTiles1,sprites.castle.tilePath7], TileScale.Sixteen);
         }
         return null;
     })
